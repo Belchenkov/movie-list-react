@@ -4,9 +4,22 @@
   "description": "Create a movie list application in React that retrieves data from a\n  local JSON file and runs in the browser with webpack and Babel, Bootstrap. The application return a list of the highest-grossing movies\n  as of 2019, along with some more details and a poster for every movie.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
 }
