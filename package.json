@@ -1,0 +1,12 @@
+{
+  "name": "movie-list-react-book",
+  "version": "1.0.0",
+  "description": "Create a movie list application in React that retrieves data from a\n  local JSON file and runs in the browser with webpack and Babel, Bootstrap. The application return a list of the highest-grossing movies\n  as of 2019, along with some more details and a poster for every movie.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
